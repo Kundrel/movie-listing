@@ -16,8 +16,8 @@ export default function Pelicula(props) {
         <p className="describe">{props.children}</p>
         <p className="run-time"> Duration: {props.duracion}    .     <span>MMPA: PG-13 </span>    .
           <span>Date: {props.fecha}</span></p>
-        <p>Director: <a href="#">{props.director}</a></p>
-        <p>Stars: <a href="#">{props.actores}</a></p>
+        <p>Director: <a href="/#">{props.director}</a></p>
+        <p>Stars: <a href="/#">{props.actores}</a></p>
       </div>
     </div>
   )

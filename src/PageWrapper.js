@@ -11,7 +11,7 @@ export default function PageWrapper(props) {
       </div>
       <div className="login-wrapper" id="login-content">
         <div className="login-content">
-          <a href="#" className="close">x</a>
+          <a href="/#" className="close">x</a>
           <h3>Login</h3>
           <form method="post" action="#">
             <div className="row">
@@ -32,7 +32,7 @@ export default function PageWrapper(props) {
                 <div>
                   <input type="checkbox" name="remember" value="Remember me" /><span>Remember me</span>
                 </div>
-                <a href="#">Forget password ?</a>
+                <a href="/#">Forget password ?</a>
               </div>
             </div>
             <div className="row">
@@ -42,15 +42,15 @@ export default function PageWrapper(props) {
           <div className="row">
             <p>Or via social</p>
             <div className="social-btn-2">
-              <a className="fb" href="#"><i className="ion-social-facebook"></i>Facebook</a>
-              <a className="tw" href="#"><i className="ion-social-twitter"></i>twitter</a>
+              <a className="fb" href="/#"><i className="ion-social-facebook"></i>Facebook</a>
+              <a className="tw" href="/#"><i className="ion-social-twitter"></i>twitter</a>
             </div>
           </div>
         </div>
       </div>
       <div className="login-wrapper" id="signup-content">
         <div className="login-content">
-          <a href="#" className="close">x</a>
+          <a href="/#" className="close">x</a>
           <h3>sign up</h3>
           <form method="post" action="#">
             <div className="row">
@@ -97,23 +97,23 @@ export default function PageWrapper(props) {
                   <span></span>
                 </div>
               </div>
-              <a href="#"><img className="logo" src="images/logo1.png" alt="" width="119" height="58" /></a>
+              <a href="/#"><img className="logo" src="images/logo1.png" alt="" width="119" height="58" /></a>
             </div>
             <div className="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav flex-child-menu menu-left">
                 <li className="hidden">
                   <a href="#page-top"></a>
                 </li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movie List</a></li>
-                <li><a href="celebritygrid01.html">Celebrities</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Community</a></li>
+                <li><a href="/#">Home</a></li>
+                <li><a href="/">Movie List</a></li>
+                <li><a href="/#">Celebrities</a></li>
+                <li><a href="/#">Blog</a></li>
+                <li><a href="/#">Community</a></li>
               </ul>
               <ul className="nav navbar-nav flex-child-menu menu-right">
-                <li><a href="#">Help</a></li>
-                <li className="loginLink"><a href="#">LOG In</a></li>
-                <li className="btn signupLink"><a href="#">sign up</a></li>
+                <li><a href="/#">Help</a></li>
+                <li className="loginLink"><a href="/#">LOG In</a></li>
+                <li className="btn signupLink"><a href="/#">sign up</a></li>
               </ul>
             </div>
           </nav>
@@ -135,7 +135,7 @@ export default function PageWrapper(props) {
               <div className="hero-ct">
                 <h1> movie listing - list</h1>
                 <ul className="breadcumb">
-                  <li className="active"><a href="#">Home</a></li>
+                  <li className="active"><a href="/#">Home</a></li>
                   <li> <span className="ion-ios-arrow-right"></span> movie listing</li>
                 </ul>
               </div>
@@ -158,8 +158,8 @@ export default function PageWrapper(props) {
                   <option value="date">Release date Descending</option>
                   <option value="date">Release date Ascending</option>
                 </select>
-                <a href="#" className="list"><i className="ion-ios-list-outline active"></i></a>
-                <a href="#" className="grid"><i className="ion-grid"></i></a>
+                <a href="/#" className="list"><i className="ion-ios-list-outline active"></i></a>
+                <a href="/#" className="grid"><i className="ion-grid"></i></a>
               </div>
 
 
@@ -239,37 +239,37 @@ export default function PageWrapper(props) {
         <div className="container">
           <div className="flex-parent-ft">
             <div className="flex-child-ft item1">
-              <a href="#"><img className="logo" src="images/logo1.png" alt="" /></a>
+              <a href="/#"><img className="logo" src="images/logo1.png" alt="" /></a>
               <p>5th Avenue st, manhattan<br />
                 New York, NY 10001</p>
-              <p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+              <p>Call us: <a href="/#">(+01) 202 342 6789</a></p>
             </div>
             <div className="flex-child-ft item2">
               <h4>Resources</h4>
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blockbuster</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Forums</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Help Center</a></li>
+                <li><a href="/#">About</a></li>
+                <li><a href="/#">Blockbuster</a></li>
+                <li><a href="/#">Contact Us</a></li>
+                <li><a href="/#">Forums</a></li>
+                <li><a href="/#">Blog</a></li>
+                <li><a href="/#">Help Center</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item3">
               <h4>Legal</h4>
               <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Security</a></li>
+                <li><a href="/#">Terms of Use</a></li>
+                <li><a href="/#">Privacy Policy</a></li>
+                <li><a href="/#">Security</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item4">
               <h4>Account</h4>
               <ul>
-                <li><a href="#">My Account</a></li>
-                <li><a href="#">Watchlist</a></li>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">User Guide</a></li>
+                <li><a href="/#">My Account</a></li>
+                <li><a href="/#">Watchlist</a></li>
+                <li><a href="/#">Collections</a></li>
+                <li><a href="/#">User Guide</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item5">
@@ -278,16 +278,16 @@ export default function PageWrapper(props) {
               <form action="#">
                 <input type="text" placeholder="Enter your email..." />
               </form>
-              <a href="#" className="btn">Subscribe now <i className="ion-ios-arrow-forward"></i></a>
+              <a href="/#" className="btn">Subscribe now <i className="ion-ios-arrow-forward"></i></a>
             </div>
           </div>
         </div>
         <div className="ft-copyright">
           <div className="ft-left">
-            <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+            <p><a target="_blank" rel="noreferrer" href="https://www.templateshub.net">Templates Hub</a></p>
           </div>
           <div className="backtotop">
-            <p><a href="#" id="back-to-top">Back to top  <i className="ion-ios-arrow-thin-up"></i></a></p>
+            <p><a href="/#" id="back-to-top">Back to top  <i className="ion-ios-arrow-thin-up"></i></a></p>
           </div>
         </div>
       </footer>
