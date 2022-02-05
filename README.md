@@ -1,10 +1,6 @@
-## Web de películas
+# Web de películas
 
 Página web informativa que contiene un catálogo de películas con la información correspondiente de cada una, incluye un paginador y cada sección correspondiente.
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
